@@ -28,6 +28,9 @@
 
 This basic examples uses TypeORM to connect a MySQL database, but it is easily configurable. An example with a User Entity has been done in order to clarify the usage.
 
+## Current Issues
+
+Swagger are not showing entity information due to an internal issue
   
 ## Installation
 
