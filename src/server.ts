@@ -7,10 +7,10 @@ async function bootstrap() {
   const app = await NestFactory.create(ApplicationModule);
   
   const options = new DocumentBuilder()
-  .setTitle('Sharely Api')
-  .setDescription('API to store ang get task information')
+  .setTitle('Generic Api')
+  .setDescription('API')
   .setVersion('1.0')
-  .addTag('task-app')
+  .addTag('generic-api')
   .build();
   const document = SwaggerModule.createDocument(app, options);
   SwaggerModule.setup('/api/documentation', app, document);
