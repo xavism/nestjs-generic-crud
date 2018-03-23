@@ -24,7 +24,10 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework **TypeScript** starter repository. 
+[Nest](https://github.com/nestjs/nest) framework **TypeScript** repository to create a generic API.
+
+This basic examples uses TypeORM to connect a MySQL database, but it is easily configurable. An example with a User Entity has been done in order to clarify the usage.
+
   
 ## Installation
 
